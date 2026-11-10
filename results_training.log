@@ -1,0 +1,137 @@
+D:\Anaconda\lib\site-packages\pandas\core\computation\expressions.py:21: UserWarning: Pandas requires version '2.8.4' or newer of 'numexpr' (version '2.8.1' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+D:\Anaconda\lib\site-packages\pandas\core\arrays\masked.py:60: UserWarning: Pandas requires version '1.3.6' or newer of 'bottleneck' (version '1.3.4' currently installed).
+  from pandas.core import (
+{"dataset": "OncologyScreen", "rows": 4176, "positive": 2257, "negative": 1919, "unique_triplets": 4176, "repeated_triplet_rows": 0, "groups_with_conflicting_labels": 0, "drugs_in_graph": 21, "cells_in_graph": 29, "proteins": 15970, "drugs_in_combinations": 21, "cells_in_combinations": 29, "ppi_rows": 217160, "dpi_rows": 405, "cpi_rows": 8881, "entities_without_protein_neighbors": 0, "raw_sha256": {"drug_combinations.csv": "43f9e7c99146388b81d7490db986d537053c1ad4ce88434abf2067916ad331db", "drug_protein.csv": "f8dd316456bba77a7c6a21bc23e6c3538a4c995529ed4086129d258036c069e6", "cell_protein.csv": "e0d5cb5d565d3eca1312c7d230ef63857a13ff319ed38a2332fbc7c9d31e4161", "protein-protein_network.xlsx": "7c8836b1f5f280599ce83d8e201842a3f32ef2151850f53d81433c25e94ec817"}}
+OncologyScreen fold=1/5 epoch=1 loss=0.71623 inner_val_AUC=0.4931 epoch_s=0.15
+OncologyScreen fold=1/5 epoch=10 loss=0.71189 inner_val_AUC=0.6323 epoch_s=0.15
+OncologyScreen fold=1/5 epoch=20 loss=0.70934 inner_val_AUC=0.6714 epoch_s=0.15
+OncologyScreen fold=1/5 epoch=30 loss=0.70744 inner_val_AUC=0.7059 epoch_s=0.15
+OncologyScreen fold=1/5 epoch=40 loss=0.70507 inner_val_AUC=0.7356 epoch_s=0.15
+OncologyScreen fold=1/5 epoch=50 loss=0.69607 inner_val_AUC=0.7528 epoch_s=0.15
+OncologyScreen fold=1/5 epoch=60 loss=0.66918 inner_val_AUC=0.7575 epoch_s=0.17
+OncologyScreen fold=1/5 epoch=70 loss=0.61941 inner_val_AUC=0.7584 epoch_s=0.34
+OncologyScreen fold=1/5 epoch=80 loss=0.56792 inner_val_AUC=0.7876 epoch_s=0.32
+OncologyScreen fold=1/5 epoch=90 loss=0.52134 inner_val_AUC=0.8143 epoch_s=0.23
+OncologyScreen fold=1/5 epoch=100 loss=0.47160 inner_val_AUC=0.8370 epoch_s=0.21
+OncologyScreen fold=1/5 epoch=110 loss=0.42121 inner_val_AUC=0.8313 epoch_s=0.17
+OncologyScreen fold=1/5 epoch=120 loss=0.37539 inner_val_AUC=0.8461 epoch_s=0.19
+OncologyScreen fold=1/5 epoch=130 loss=0.33074 inner_val_AUC=0.8369 epoch_s=0.26
+OncologyScreen fold=1/5 epoch=140 loss=0.30095 inner_val_AUC=0.8245 epoch_s=0.31
+COMPLETED OncologyScreen {"fold": 1, "best_epoch": 120, "epochs_run": 145, "n_train": 2705, "n_validation": 301, "n_test": 752, "hyperedges": 1472, "AUC": 0.7881494142363707, "AUPR": 0.7966783301102721, "AP": 0.7971363580073832, "ACC": 0.738031914893617, "Precision": 0.7408256880733946, "Recall": 0.7936117936117936, "F1": 0.7663107947805456}
+OncologyScreen fold=2/5 epoch=1 loss=0.71482 inner_val_AUC=0.5710 epoch_s=0.15
+OncologyScreen fold=2/5 epoch=10 loss=0.71069 inner_val_AUC=0.7112 epoch_s=0.14
+OncologyScreen fold=2/5 epoch=20 loss=0.70910 inner_val_AUC=0.7471 epoch_s=0.13
+OncologyScreen fold=2/5 epoch=30 loss=0.70723 inner_val_AUC=0.7717 epoch_s=0.14
+OncologyScreen fold=2/5 epoch=40 loss=0.70339 inner_val_AUC=0.7911 epoch_s=0.14
+OncologyScreen fold=2/5 epoch=50 loss=0.69075 inner_val_AUC=0.7946 epoch_s=0.13
+OncologyScreen fold=2/5 epoch=60 loss=0.65453 inner_val_AUC=0.7823 epoch_s=0.14
+OncologyScreen fold=2/5 epoch=70 loss=0.58989 inner_val_AUC=0.7840 epoch_s=0.14
+COMPLETED OncologyScreen {"fold": 2, "best_epoch": 46, "epochs_run": 71, "n_train": 2705, "n_validation": 301, "n_test": 752, "hyperedges": 1475, "AUC": 0.7877984555546093, "AUPR": 0.7795736641467089, "AP": 0.7805243492283328, "ACC": 0.5332446808510638, "Precision": 0.531628532974428, "Recall": 0.992462311557789, "F1": 0.6923751095530236}
+OncologyScreen fold=3/5 epoch=1 loss=0.71650 inner_val_AUC=0.5376 epoch_s=0.14
+OncologyScreen fold=3/5 epoch=10 loss=0.71263 inner_val_AUC=0.6995 epoch_s=0.14
+OncologyScreen fold=3/5 epoch=20 loss=0.71023 inner_val_AUC=0.7363 epoch_s=0.15
+OncologyScreen fold=3/5 epoch=30 loss=0.70896 inner_val_AUC=0.7564 epoch_s=0.14
+OncologyScreen fold=3/5 epoch=40 loss=0.70737 inner_val_AUC=0.7687 epoch_s=0.14
+OncologyScreen fold=3/5 epoch=50 loss=0.70128 inner_val_AUC=0.7607 epoch_s=0.16
+OncologyScreen fold=3/5 epoch=60 loss=0.68272 inner_val_AUC=0.7499 epoch_s=0.16
+COMPLETED OncologyScreen {"fold": 3, "best_epoch": 41, "epochs_run": 66, "n_train": 2705, "n_validation": 301, "n_test": 752, "hyperedges": 1453, "AUC": 0.7499264447330841, "AUPR": 0.7815984410302791, "AP": 0.7820459591796555, "ACC": 0.5598404255319149, "Precision": 0.5598404255319149, "Recall": 1.0, "F1": 0.7178175618073316}
+OncologyScreen fold=4/5 epoch=1 loss=0.71752 inner_val_AUC=0.4894 epoch_s=0.17
+OncologyScreen fold=4/5 epoch=10 loss=0.71234 inner_val_AUC=0.7164 epoch_s=0.18
+OncologyScreen fold=4/5 epoch=20 loss=0.70912 inner_val_AUC=0.7468 epoch_s=0.15
+OncologyScreen fold=4/5 epoch=30 loss=0.70742 inner_val_AUC=0.7646 epoch_s=0.14
+OncologyScreen fold=4/5 epoch=40 loss=0.70496 inner_val_AUC=0.7810 epoch_s=0.15
+OncologyScreen fold=4/5 epoch=50 loss=0.69700 inner_val_AUC=0.7850 epoch_s=0.15
+OncologyScreen fold=4/5 epoch=60 loss=0.67186 inner_val_AUC=0.7883 epoch_s=0.18
+OncologyScreen fold=4/5 epoch=70 loss=0.61774 inner_val_AUC=0.7929 epoch_s=0.18
+OncologyScreen fold=4/5 epoch=80 loss=0.56889 inner_val_AUC=0.8240 epoch_s=0.13
+OncologyScreen fold=4/5 epoch=90 loss=0.53470 inner_val_AUC=0.8176 epoch_s=0.11
+OncologyScreen fold=4/5 epoch=100 loss=0.51837 inner_val_AUC=0.8119 epoch_s=0.08
+COMPLETED OncologyScreen {"fold": 4, "best_epoch": 84, "epochs_run": 109, "n_train": 2706, "n_validation": 301, "n_test": 751, "hyperedges": 1480, "AUC": 0.7943709319791146, "AUPR": 0.8116132113977191, "AP": 0.8115270007370814, "ACC": 0.7217043941411452, "Precision": 0.7421686746987952, "Recall": 0.751219512195122, "F1": 0.7466666666666667}
+OncologyScreen fold=5/5 epoch=1 loss=0.72232 inner_val_AUC=0.5632 epoch_s=0.11
+OncologyScreen fold=5/5 epoch=10 loss=0.71664 inner_val_AUC=0.6782 epoch_s=0.09
+OncologyScreen fold=5/5 epoch=20 loss=0.71277 inner_val_AUC=0.7029 epoch_s=0.12
+OncologyScreen fold=5/5 epoch=30 loss=0.70986 inner_val_AUC=0.7300 epoch_s=0.20
+OncologyScreen fold=5/5 epoch=40 loss=0.70683 inner_val_AUC=0.7471 epoch_s=0.16
+OncologyScreen fold=5/5 epoch=50 loss=0.70178 inner_val_AUC=0.7614 epoch_s=0.09
+OncologyScreen fold=5/5 epoch=60 loss=0.68443 inner_val_AUC=0.7634 epoch_s=0.09
+OncologyScreen fold=5/5 epoch=70 loss=0.64204 inner_val_AUC=0.7762 epoch_s=0.10
+OncologyScreen fold=5/5 epoch=80 loss=0.58069 inner_val_AUC=0.7948 epoch_s=0.27
+OncologyScreen fold=5/5 epoch=90 loss=0.53489 inner_val_AUC=0.8090 epoch_s=0.26
+OncologyScreen fold=5/5 epoch=100 loss=0.49635 inner_val_AUC=0.8179 epoch_s=0.26
+OncologyScreen fold=5/5 epoch=110 loss=0.46199 inner_val_AUC=0.8213 epoch_s=0.25
+OncologyScreen fold=5/5 epoch=120 loss=0.42416 inner_val_AUC=0.8098 epoch_s=0.26
+COMPLETED OncologyScreen {"fold": 5, "best_epoch": 104, "epochs_run": 129, "n_train": 2706, "n_validation": 301, "n_test": 751, "hyperedges": 1467, "AUC": 0.7943992289569501, "AUPR": 0.8043367698500377, "AP": 0.8043737862369199, "ACC": 0.7310252996005326, "Precision": 0.7562814070351759, "Recall": 0.7413793103448276, "F1": 0.7487562189054726}
+SUMMARY {"dataset": "OncologyScreen", "n_development": 3758, "n_independent": 418, "fold_mean": {"AUC": 0.7829288950920257, "AUPR": 0.7947600833070034, "AP": 0.7951214906778745, "ACC": 0.6567693430036547, "Precision": 0.6661489456627416, "Recall": 0.8557345855419063, "F1": 0.734385270342608}, "fold_std_ddof1": {"AUC": 0.01872576390983802, "AUPR": 0.01399354026610557, "AP": 0.013627650991908307, "ACC": 0.10122706005396022, "Precision": 0.11054039819798457, "Recall": 0.12977552896204586, "F1": 0.02922301552107115}, "pooled_oof": {"AUC": 0.7490105796912849, "AUPR": 0.762610778261482, "AP": 0.7627996912712902, "ACC": 0.6567323044172432, "Precision": 0.6370262390670554, "Recall": 0.8560235063663075, "F1": 0.7304638529043043}, "seconds": 115.08635330200195, "independent_ensemble": {"AUC": 0.8103791957841677, "AUPR": 0.8223755710301743, "AP": 0.8229665342375685, "ACC": 0.7392344497607656, "Precision": 0.7366071428571429, "Recall": 0.7674418604651163, "F1": 0.7517084282460137}}
+{"dataset": "DrugCombDB", "rows": 69436, "positive": 31623, "negative": 37813, "unique_triplets": 66807, "repeated_triplet_rows": 2629, "groups_with_conflicting_labels": 733, "drugs_in_graph": 764, "cells_in_graph": 76, "proteins": 15970, "drugs_in_combinations": 572, "cells_in_combinations": 73, "ppi_rows": 217160, "dpi_rows": 5290, "cpi_rows": 27730, "entities_without_protein_neighbors": 0, "raw_sha256": {"drug_combinations.csv": "f828536c1f6087c1bc18b8c1342aee0460d0f02df95e316028b2628442235a64", "drug_protein.csv": "db7061007d2c494c06b7eee8c62a0a8eec7b9f3540f58665901d77fea57ae064", "cell_protein.csv": "a8076249d84a00a1812d80e4229b4080174f6e8ea07d7d5b06cfb9710871e8f9", "protein-protein_network.xlsx": "b0850731a0b68361430e0c44825e05af363b367099e0e9f56ae2def8d095fa84"}}
+DrugCombDB fold=1/5 epoch=1 loss=0.73166 inner_val_AUC=0.5258 epoch_s=1.63
+DrugCombDB fold=1/5 epoch=10 loss=0.72900 inner_val_AUC=0.5792 epoch_s=1.55
+DrugCombDB fold=1/5 epoch=20 loss=0.72729 inner_val_AUC=0.6057 epoch_s=1.60
+DrugCombDB fold=1/5 epoch=30 loss=0.72502 inner_val_AUC=0.6369 epoch_s=1.66
+DrugCombDB fold=1/5 epoch=40 loss=0.72055 inner_val_AUC=0.6681 epoch_s=2.04
+DrugCombDB fold=1/5 epoch=50 loss=0.71472 inner_val_AUC=0.6887 epoch_s=1.89
+DrugCombDB fold=1/5 epoch=60 loss=0.70427 inner_val_AUC=0.6975 epoch_s=1.97
+DrugCombDB fold=1/5 epoch=70 loss=0.68564 inner_val_AUC=0.7042 epoch_s=2.00
+DrugCombDB fold=1/5 epoch=80 loss=0.66144 inner_val_AUC=0.7162 epoch_s=2.46
+DrugCombDB fold=1/5 epoch=90 loss=0.63949 inner_val_AUC=0.7368 epoch_s=1.73
+DrugCombDB fold=1/5 epoch=100 loss=0.61848 inner_val_AUC=0.7503 epoch_s=2.15
+DrugCombDB fold=1/5 epoch=110 loss=0.59723 inner_val_AUC=0.7610 epoch_s=1.92
+DrugCombDB fold=1/5 epoch=120 loss=0.57640 inner_val_AUC=0.7715 epoch_s=2.58
+DrugCombDB fold=1/5 epoch=130 loss=0.55752 inner_val_AUC=0.7807 epoch_s=1.48
+DrugCombDB fold=1/5 epoch=140 loss=0.53809 inner_val_AUC=0.7862 epoch_s=1.61
+DrugCombDB fold=1/5 epoch=150 loss=0.51909 inner_val_AUC=0.7929 epoch_s=1.94
+COMPLETED DrugCombDB {"fold": 1, "best_epoch": 150, "epochs_run": 150, "n_train": 45007, "n_validation": 4984, "n_test": 12500, "hyperedges": 19739, "AUC": 0.794185300385143, "AUPR": 0.7642908145742209, "AP": 0.7643439726734931, "ACC": 0.72248, "Precision": 0.7112229679343773, "Recall": 0.6652136006974717, "F1": 0.6874493197585368}
+DrugCombDB fold=2/5 epoch=1 loss=0.73928 inner_val_AUC=0.5122 epoch_s=1.57
+DrugCombDB fold=2/5 epoch=10 loss=0.73504 inner_val_AUC=0.5645 epoch_s=1.48
+DrugCombDB fold=2/5 epoch=20 loss=0.73141 inner_val_AUC=0.5896 epoch_s=1.46
+DrugCombDB fold=2/5 epoch=30 loss=0.72738 inner_val_AUC=0.6217 epoch_s=1.56
+DrugCombDB fold=2/5 epoch=40 loss=0.72255 inner_val_AUC=0.6559 epoch_s=1.66
+DrugCombDB fold=2/5 epoch=50 loss=0.71744 inner_val_AUC=0.6765 epoch_s=1.81
+DrugCombDB fold=2/5 epoch=60 loss=0.70911 inner_val_AUC=0.6824 epoch_s=1.72
+DrugCombDB fold=2/5 epoch=70 loss=0.69440 inner_val_AUC=0.6909 epoch_s=2.12
+DrugCombDB fold=2/5 epoch=80 loss=0.67209 inner_val_AUC=0.6923 epoch_s=2.07
+DrugCombDB fold=2/5 epoch=90 loss=0.64935 inner_val_AUC=0.7147 epoch_s=1.96
+DrugCombDB fold=2/5 epoch=100 loss=0.62708 inner_val_AUC=0.7360 epoch_s=1.89
+DrugCombDB fold=2/5 epoch=110 loss=0.60675 inner_val_AUC=0.7483 epoch_s=1.75
+DrugCombDB fold=2/5 epoch=120 loss=0.58648 inner_val_AUC=0.7627 epoch_s=0.88
+DrugCombDB fold=2/5 epoch=130 loss=0.56635 inner_val_AUC=0.7719 epoch_s=0.89
+DrugCombDB fold=2/5 epoch=140 loss=0.54564 inner_val_AUC=0.7788 epoch_s=1.08
+DrugCombDB fold=2/5 epoch=150 loss=0.52594 inner_val_AUC=0.7881 epoch_s=1.15
+COMPLETED DrugCombDB {"fold": 2, "best_epoch": 150, "epochs_run": 150, "n_train": 45005, "n_validation": 4999, "n_test": 12487, "hyperedges": 19737, "AUC": 0.7815971212321693, "AUPR": 0.7514227163548253, "AP": 0.7514755290630865, "ACC": 0.7134620004804997, "Precision": 0.7022534170668637, "Recall": 0.6591539528432733, "F1": 0.6800214630656413}
+DrugCombDB fold=3/5 epoch=1 loss=0.73608 inner_val_AUC=0.5247 epoch_s=1.61
+DrugCombDB fold=3/5 epoch=10 loss=0.73248 inner_val_AUC=0.5665 epoch_s=1.09
+DrugCombDB fold=3/5 epoch=20 loss=0.72935 inner_val_AUC=0.5946 epoch_s=1.63
+DrugCombDB fold=3/5 epoch=30 loss=0.72597 inner_val_AUC=0.6216 epoch_s=1.77
+DrugCombDB fold=3/5 epoch=40 loss=0.72149 inner_val_AUC=0.6527 epoch_s=1.62
+DrugCombDB fold=3/5 epoch=50 loss=0.71494 inner_val_AUC=0.6708 epoch_s=1.64
+DrugCombDB fold=3/5 epoch=60 loss=0.70447 inner_val_AUC=0.6780 epoch_s=2.41
+DrugCombDB fold=3/5 epoch=70 loss=0.68775 inner_val_AUC=0.6842 epoch_s=2.43
+DrugCombDB fold=3/5 epoch=80 loss=0.66787 inner_val_AUC=0.7015 epoch_s=2.79
+DrugCombDB fold=3/5 epoch=90 loss=0.64711 inner_val_AUC=0.7172 epoch_s=2.62
+DrugCombDB fold=3/5 epoch=100 loss=0.62518 inner_val_AUC=0.7272 epoch_s=2.30
+DrugCombDB fold=3/5 epoch=110 loss=0.60397 inner_val_AUC=0.7451 epoch_s=1.78
+DrugCombDB fold=3/5 epoch=120 loss=0.58357 inner_val_AUC=0.7584 epoch_s=1.84
+DrugCombDB fold=3/5 epoch=130 loss=0.56429 inner_val_AUC=0.7689 epoch_s=1.86
+DrugCombDB fold=3/5 epoch=140 loss=0.54397 inner_val_AUC=0.7777 epoch_s=1.81
+DrugCombDB fold=3/5 epoch=150 loss=0.52645 inner_val_AUC=0.7862 epoch_s=1.86
+COMPLETED DrugCombDB {"fold": 3, "best_epoch": 150, "epochs_run": 150, "n_train": 44985, "n_validation": 5006, "n_test": 12500, "hyperedges": 19838, "AUC": 0.7748634745727687, "AUPR": 0.7365766493540697, "AP": 0.7366220139180872, "ACC": 0.70928, "Precision": 0.6831826401446655, "Recall": 0.6674911660777385, "F1": 0.6752457551385165}
+DrugCombDB fold=4/5 epoch=1 loss=0.73353 inner_val_AUC=0.4900 epoch_s=1.49
+DrugCombDB fold=4/5 epoch=10 loss=0.73048 inner_val_AUC=0.5549 epoch_s=1.74
+DrugCombDB fold=4/5 epoch=20 loss=0.72841 inner_val_AUC=0.5875 epoch_s=1.17
+DrugCombDB fold=4/5 epoch=30 loss=0.72599 inner_val_AUC=0.6188 epoch_s=1.44
+DrugCombDB fold=4/5 epoch=40 loss=0.72187 inner_val_AUC=0.6429 epoch_s=1.52
+DrugCombDB fold=4/5 epoch=50 loss=0.71440 inner_val_AUC=0.6559 epoch_s=1.45
+Traceback (most recent call last):
+  File "C:\Users\lilei\Documents\Codex\2026-11-10\ba\outputs\CLHGSyn\run_cv.py", line 53, in <module>
+    main()
+  File "C:\Users\lilei\Documents\Codex\2026-11-10\ba\outputs\CLHGSyn\run_cv.py", line 49, in main
+    run_dataset(args, dataset)
+  File "C:\Users\lilei\Documents\Codex\2026-11-10\ba\outputs\CLHGSyn\clhgsyn\train.py", line 124, in run_dataset
+    torch.save({'model_state_dict': model.state_dict(), 'config': config,
+  File "D:\Anaconda\lib\site-packages\torch\serialization.py", line 966, in save
+    with _open_zipfile_writer(f) as opened_zipfile:
+  File "D:\Anaconda\lib\site-packages\torch\serialization.py", line 828, in _open_zipfile_writer
+    return container(name_or_buffer)  # type: ignore[arg-type]
+  File "D:\Anaconda\lib\site-packages\torch\serialization.py", line 792, in __init__
+    torch._C.PyTorchFileWriter(
+RuntimeError: Parent directory C:\Users\lilei\Documents\Codex\2026-11-10\ba\outputs\CLHGSyn\results\DrugCombDB\fold_4 does not exist.

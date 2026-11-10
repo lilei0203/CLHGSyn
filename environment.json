@@ -1,0 +1,10 @@
+{
+  "python": "3.9.12 (main, Apr  4 2022, 05:22:27) [MSC v.1916 64 bit (AMD64)]",
+  "torch": "2.8.0+cpu",
+  "numpy": "1.26.2",
+  "pandas": "2.2.1",
+  "scipy": "1.13.1",
+  "scikit-learn": "1.5.0",
+  "openpyxl": "3.0.9",
+  "cuda_available": false
+}
